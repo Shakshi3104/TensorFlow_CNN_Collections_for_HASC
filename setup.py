@@ -2,9 +2,9 @@ import setuptools
 
 setuptools.setup(
     name="tfgarden",
-    version="0.3.1",
+    version="0.3.1-macos",
     author="Shakshi3104",
-    description="TensorFlow model Garden for HASC",
+    description="TensorFlow model Garden for HASC, for tensorflow-macos",
     url="https://github.com/Shakshi3104/tfgarden",
     packages=setuptools.find_packages(where='src'),
     classifiers=[
@@ -17,6 +17,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     python_requires=">=3.6, <4",
-    install_requires=["tensorflow"],
+    install_requires=["tensorflow-macos"],
     package_dir={'': 'src'},
 )
