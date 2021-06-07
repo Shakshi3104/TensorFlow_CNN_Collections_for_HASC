@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="tfgarden",
-    version="0.3.1",
+    version="0.3.2-macos",
     author="Shakshi3104",
     description="TensorFlow model Garden for HASC",
     url="https://github.com/Shakshi3104/tfgarden",
@@ -17,6 +17,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     python_requires=">=3.6, <4",
-    install_requires=["tensorflow"],
     package_dir={'': 'src'},
 )
